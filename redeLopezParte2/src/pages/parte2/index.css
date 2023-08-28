@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.faixa5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #bebebe66;
+    padding: 30px;
+}
+.faixa5 #f5-imagens img {
+    width:50%;
+    height: auto;
+    margin-left: 15px;
+}
+.faixa5 #f5-imagens{
+   width: 350px;
+   display: flex;
+   flex-direction: row;
+}
+.faixa5 p {
+    max-width: 450px;
+    text-align: left;
+    font-size: 20px;
+}
+.faixa5 #texto {
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+
+
+
+.faixa6 {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.faixa6 h2 {
+    font-size: 30px;
+    color: #333333;
+    max-width: 850px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Be Vietnam',Helvetica,Arial,Lucida,sans-serif;
+}
+.faixa6 > h6 {
+    font-size: 15px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    margin-bottom: 70px;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.faixa6 span {
+    color: #EB194B;
+}
+.faixa6 div {
+    display: flex;
+    flex-direction: row;
+}
+.faixa6 div h6 {
+    color: #EB194B;
+    font-size: 18px;
+    font-family: 'Be Vietnam',Helvetica,Arial,Lucida,sans-serif;
+    margin-bottom: 20px;
+}
+.faixa6 div h4 {
+    color: #333333;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Be Vietnam',Helvetica,Arial,Lucida,sans-serif;
+    width:300px;
+    text-align: left ;
+    margin-bottom: 30px;
+}
+.faixa6 div img {
+    max-width: 300px ;
+    min-width: 150px;
+}
+.faixa6 div #ibope {
+    width: 230px;
+}
+.faixa6 article {
+    width: 350px;
+}
+
+
+
+
+.faixa7 {
+    background-color:#EB194B;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.faixa7 > p {
+    max-width: 40%;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Be Vietnam',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+}
+.faixa7 div {
+    width: 40%;
+}
+.faixa7 div p {
+    color: #fff;
+    font-family: 'Be Vietnam',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+    max-width: 80%;
+}
+.faixa7 div img {
+    width: 35px ;
+}
+
+
+
+@media(max-width: 1000px ){
+    .faixa5 {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .faixa5 p {
+        max-width: 95%;
+        text-align: left;
+        line-height: 28px;
+        font-size: 20px;
+    }
+    .faixa5 #texto {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .faixa5 #f5-imagens img {
+        width:30%;
+        margin-left: 15px;
+    }
+    .faixa5 #f5-imagens {
+        width:100%;
+    }
+    .faixa6 div {
+        display: flex;
+        flex-direction: column;
+    }
+    #ibope {
+        margin-bottom: 30px;
+        width: 40%;
+    }
+    .faixa6 {
+        padding: 60px;
+        display: flex;
+        justify-content: unset;
+        align-items: unset;
+    }
+    .faixa6 .tabela {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+    .faixa6 div h4 {
+        font-size: 22px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .faixa6 .graficos {
+        max-width:90%;
+        min-width: 70%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .faixa6 #article1{
+        height: 300px;
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .faixa6 article {
+        max-width: 85% !important;
+
+        height: 300px;
+        margin-bottom: 50px;
+    }
+    .faixa7 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .faixa7 div  {
+        margin-bottom: 30px;
+        width: 50%;
+    }
+    .faixa7 p {
+        max-width:80%;
+    }
+    .faixa5 #f5-imagens{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media(max-width:750px){
+    .faixa5 #f5-imagens img {
+        max-width:300px;
+        margin-left: 80px;
+    }
+    .faixa5 #texto p {
+        max-width:600px;
+        margin-bottom: 30px;
+    }
+    .faixa6 h2 {
+        font-size: 25px;
+    }
+    .faixa6 h4 {
+        font-size: 18px !important;
+        width: 90%;
+    }
+    .faixa7 p {
+        max-width:80%;
+    }
+    .faixa5 div img {
+        width: 100%;
+    }
+}
+@media(max-width:500px){
+    .faixa5 #f5-imagens {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .faixa5 #f5-imagens img {
+        width:50%;
+    }
+    .faixa7 div  {
+        margin-bottom: 30px;
+        width: 90%;
+    }
+}

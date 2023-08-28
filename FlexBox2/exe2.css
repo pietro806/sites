@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    box-sizing:border-box;
+ }
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.cabecalho {
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: cornflowerblue;
+    height: 500px;
+    width: 1370px;
+    padding: 20px;
+}
+.cabecalho div {
+    margin: 10px;
+    background-color: blueviolet;
+    height: 125px;
+    width: 125px;
+}

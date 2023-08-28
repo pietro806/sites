@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+
+}
+.central {
+    display: flex;
+    flex-direction:row ;
+}
+.brancoesquerda {
+    background-color: rgb(255, 255, 255);
+    width: 300px ;
+    height:580px;
+}
+.centro {
+    display:flex;
+    flex-direction: column;
+    width:770px;
+}
+.cabecalho {
+    background-color:rgb(101, 126, 173);
+    width:770px;
+    height:80px;
+}
+.principal {
+    background-color: #6db183;
+    height: 500px;
+}
+.fundosite {
+    background-color: rgb(66, 66, 64);
+    margin: 25px;
+    height:450px;
+    padding: 10px;
+}
+.emcima {
+    display:flex;
+    flex-direction: row;
+    background-color: #121814;
+    width:670px;
+    height: 50px;
+    margin: 8px;
+    margin-bottom: 10px;
+}
+.quadradoesquerda {
+    width:55px;
+    height: 35px;
+    background-color: antiquewhite;
+    margin:8px;
+}
+.retangulos div{
+    width: 200px;
+    height:12px;
+    background-color: antiquewhite;
+    margin:8px;
+}
+.quadradodireita {
+    width:55px;
+    height:35px;
+    background-color:blueviolet;
+    margin:8px;
+}
+.movequadrado {
+    display:flex;
+    width:500px;
+    justify-content: flex-end;
+}
+
+.quadradao {
+    width:645px;
+    height: 250px;
+    background-color: antiquewhite;
+    margin:8px;
+}
+.retangulomaior {
+    width:645px;
+    height: 28px;
+    background-color: antiquewhite;
+    margin:8px;
+}
+.conteudo {
+    background-color: #121814;
+    width:670px;
+    height: 300px;
+    margin: 8px;
+    padding: 2px;
+}
+
+.embaixo {
+    display:flex;
+    justify-content: flex-end;
+    background-color: #121814;
+    width:670px;
+    height: 50px;
+    margin: 8px 8px;
+}
+.embaixo div {
+    width:55px;
+    height: 35px;
+    background-color: antiquewhite;
+    margin:8px
+}
+.moverodape {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid rgb(255, 0, 179);
+}
+.rodape {
+    width:500;
+    background-color:greenyellow;
+    height:80px;
+}

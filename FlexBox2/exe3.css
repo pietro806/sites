@@ -1,0 +1,23 @@
+* {
+    margin:0px;
+    box-sizing:border-box;
+}
+.container {
+    display: flex;
+}
+.pagina {
+    background-color: cornflowerblue;
+    width: 1370px;
+    height: 661px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.quadrado {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 125, 43);
+    height:400px;
+    width: 400px;
+}

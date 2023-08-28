@@ -1,0 +1,95 @@
+* {
+    margin:0px;
+    box-sizing:border-box    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho {
+    background-color: cornflowerblue;
+    height:180px;
+}
+.conteudo {
+    display:flex;
+    flex-direction: row;
+    background-color: dimgray;
+    height:300px;
+    padding: 0px 100px;
+}
+.primeira {
+    background-color: coral;
+    height:300px;
+    width:330px;
+    margin:0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+.primeira div {
+    background-color: cornflowerblue;
+    width: 200px;
+    height:30px;
+    margin:10px;
+    display:flex;
+    align-self: center;
+}
+.primeira .divgrande {
+    background-color:rgb(255, 255, 255) ;
+    width: 150px;
+    height: 150px;
+}
+.segundo {
+    background-color: coral;
+    height:300px;
+    width:330px;
+    margin:0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    
+}
+.segundo div {
+    background-color: cornflowerblue;
+    width: 200px;
+    height:30px;
+    margin:10px;
+    display:flex;
+    align-self: center;
+}
+.segundo .divgrande1 {
+    background-color:rgb(255, 255, 255) ;
+    width: 150px;
+    height: 150px;
+}
+
+.terceira {
+    background-color: coral;
+    height:300px;
+    width:330px;
+    margin:0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+.terceira div {
+    background-color: cornflowerblue;
+    width: 200px;
+    height:30px;
+    margin:10px;
+    display:flex;
+    align-self: center;
+}
+.terceira .divgrande2 {
+    background-color:rgb(255, 255, 255) ;
+    width: 150px;
+    height: 150px;
+}
+.rodape {
+    width: 1000x;
+    height: 180px;
+    background-color: rgb(51, 29, 22);
+}

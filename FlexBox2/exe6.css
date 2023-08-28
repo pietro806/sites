@@ -1,0 +1,92 @@
+* {
+    margin:0px;
+    box-sizing:border-box    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho {
+    background-color: cornflowerblue;
+    height:250px;
+    display: flex;
+    flex-direction: row;
+}
+.nahorizontal1 {
+    display: flex;
+    flex-direction:column ;
+}
+.nahorizontal1 div {
+    background-color: brown;
+    width:120px;
+    height:120px;
+    margin:10px;
+}
+.verde1 {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(255, 255, 255) ;
+    width:200px;
+    height:230px;
+    margin: 10px;
+}
+.nahorizontal2 {
+    display: flex;
+    flex-direction:column ;
+}
+.nahorizontal2 div {
+    background-color: brown;
+    width:120px;
+    height:120px;
+    margin:10px;
+}
+.verde2 {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(255, 255, 255) ;
+    width:200px;
+    height:230px;
+    margin: 10px;
+}
+.nahorizontal3 {
+    display: flex;
+    flex-direction:column ;
+}
+.nahorizontal3 div {
+    background-color: brown;
+    width:120px;
+    height:120px;
+    margin:10px;
+}
+.verde3 {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(255, 255, 255) ;
+    width:200px;
+    height:230px;
+    margin: 10px;
+}
+.nahorizontal4 {
+    display: flex;
+    flex-direction:column ;
+}
+.nahorizontal4 div {
+    background-color: brown;
+    width:120px;
+    height:120px;
+    margin:10px;
+}
+.verde4 {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(255, 255, 255) ;
+    width:200px;
+    height:230px;
+    margin: 10px;
+}
+.rodape {
+    background-color: rgb(255, 255, 255);
+    height: 340px;
+    width: 1348px;
+}
+

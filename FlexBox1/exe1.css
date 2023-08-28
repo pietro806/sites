@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho {
+    height: 85px;
+    background-color: rgb(111, 0, 255);
+}
+.quadrados {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+.quadrados div {
+    background-color: rgb(211, 26, 51);
+    height: 60px;
+    width: 80px;
+    margin: 10px;
+}
+.conteudo {
+    display:flex;
+    height: 490;
+    flex-direction: row;
+}
+.direita{
+    background-color: rgb(43, 226, 119);
+    height: 500px;
+    width: 400px;
+}
+.direita div{
+    background-color: aqua;
+    width: 370px;
+    height: 50px;
+    margin: 10px;
+}
+.direita .direitagrande {
+    background-color: aqua;
+    width: 370px;
+    height: 290px;
+}
+.esquerda{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral ;
+    width:970px;
+}
+.esquerda div{
+    background-color:antiquewhite;
+    height: 280px;
+    width: 280px;
+}
+.rodape{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(111, 0, 255);
+    height: 86px;
+}
+.rodape div{
+    height:40px;
+    background-color:#fff;
+    width:250px;
+}
+
+

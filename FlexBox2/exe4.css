@@ -1,0 +1,76 @@
+* {
+    margin:0px;
+    box-sizing:border-box;
+}
+.container {
+    display: flex;
+   
+}
+.pagina {
+    width: 1300px;
+    height: 520px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quadrado {
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(226, 125, 43);
+    height:510px;
+    width: 510px;
+    margin-top: 100px;
+}
+.quadrado .emcima {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quadrado .emcima div {
+    background-color: rgb(111, 75, 207);
+    height: 40px;
+    width:550px;
+    margin: 5px;
+    margin-bottom: 100px;
+}
+.quadrado .doisembaixo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quadrado .doisembaixo div{
+    background-color: rgb(111, 75, 207);
+    height: 40px;
+    width:350px;
+    margin: 5px;
+    
+}
+.quadrado .doislado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.quadrado .doislado div {
+    background-color: rgb(111, 75, 207);
+    height: 40px;
+    width:150px;
+    margin: 5px;
+
+}
+.quadrado .embaixo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.quadrado .embaixo div {
+    background-color: rgb(111, 75, 207);
+    height: 40px;
+    width:550px;
+    margin: 5px;
+    margin-bottom: 100px;
+}

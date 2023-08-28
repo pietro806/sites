@@ -1,0 +1,268 @@
+body {
+    background-color: #030328;
+}
+nav {
+    background-color: #0000004D ;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 100px;
+}
+nav img {
+    width: 160px;
+    height: 30px;
+    margin: 8px 15px;
+}
+nav div {
+    display: flex;
+    flex-direction: row;
+}
+nav a {
+    color: #ffffff;
+    margin-left: 0px;
+    text-decoration: none;
+}
+nav .assine {
+    background-color: rgb(181, 53, 246) ;
+    width: 165px;
+    height: 35px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px ;
+    font-family: fonte1 ;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+nav .assine:hover {
+    background-color: #ffffff;
+    color:black;
+    transition: 0.6s;
+}
+nav .entrar {
+    font-family: fonte1 ;
+    width: 110px;
+    border-radius: 35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 3px;
+
+}
+nav .entrar:focus{
+    border: 5px solid rgba(0, 123, 255, 0.5);
+}
+.espaco {
+    height:100px
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {  
+    font-family: fonte2;
+    font-weight: 500;
+    font-size: 50px;
+    width: 1110px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+header img {
+    width:1110px;
+    height:624px;
+    object-fit: cover;
+}
+.secao3 div {
+    background-image: url(../assets/images/faixaGradiente.jpg);
+    background-position: 0px -500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin-top: 50px;
+}
+.secao3 h2 {
+    font-family: fonte2;
+    font-weight: 500;
+    font-size: 40px; 
+    color: #ffffff;
+    margin-right: 125px;
+}
+.secao3 a {
+    background-color: rgb(181, 53, 246);
+    width: 200px;
+    height: 45px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fonte1 ;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.secao3 a:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: 0.8s;
+}
+.secao4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.secao4 p {
+    width:540px;
+    margin: 0px 15px;
+    font-family: fonte4;
+    color:#ffffff;
+    font-size: 20px;
+    line-height: 30px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 80px 0px 40px 0px;
+    width: 1120px;
+    color:#ffffff;
+}
+main header h2 {
+    font-family: fonte2;
+    font-weight: 500;
+    font-size: 40px;
+}
+main h4 {
+    color: #9e86ff ;
+    border: 0;
+    font-family: fonte1;
+    font-size: 16px;
+    letter-spacing: 3px;
+    width:160px;
+}
+main h4:hover {
+    color:#ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+main section {
+    display: flex;
+    margin: 20px 0px;
+}
+main article {
+    margin: 0px 15px;
+}
+main img {
+    width:255px;
+    height:145px;
+}
+main h6 {
+    color: #ffffff;
+    width: 255px;
+    font-family: fonte2 ;
+    font-weight: 1;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+main span {
+    color: #9e86ff;
+}
+main span:hover {
+    color:#ffffff;
+    transition: 0.5s;
+}
+main p {
+    color: #ffffff;
+    width:250px;
+    font-family: fonte6;
+    font-size: 12px;
+    line-height: 20px;
+}
+.secao6 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+}
+.secao6 h2 {
+    width:1110px;
+    font-family: fonte2;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.secao6 h6 {
+    margin: 16px 0px 8px 0px;
+    font-family: fonte2 ;
+    font-weight: 1;
+    font-size: 16px;
+    text-decoration: none;
+    color:#ffffff;
+}
+.secao6 article a {
+    width:260px;
+    height:200px;
+    color: transparent;
+    display: block;
+}
+.secao6 img {
+    width:255px;
+    height:145px;
+}
+.secao6 article {
+    margin: 10px 13px;
+}
+.secao6 section {
+    display: flex;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:60px;
+    color:#9e86ff;
+    margin-bottom: 70px;
+}
+footer section {
+    margin: 10px 0px;    
+}
+footer #fonteGrossa a {
+    color:#9e86ff;
+    margin: 0px 19px;
+    text-decoration: none;
+    font-family: fonte1;
+    letter-spacing: 2.5px;
+    font-size: 13px
+}
+footer #fonteFina a {
+    font-family: fonte4;
+    margin: 0px 18px;
+    text-decoration: none;
+    font-size: 12px;
+    color:#9e86ff;
+    letter-spacing: 0.5px;
+}
+footer p {
+    font-family: fonte4;
+    font-size: 12px;
+    margin-top: 10px;
+}

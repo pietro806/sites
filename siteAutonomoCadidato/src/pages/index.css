@@ -1,0 +1,131 @@
+.secao1 {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 15vh;
+    width: 100%;
+    background-color: #272727;
+    color: #fff;
+    padding: 0px 40px;
+}
+
+.secao1 > header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+.secao1 p{
+    font: 18px 'fonte8';
+    color: #fff;
+}
+
+.secao1 > header p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.s1-icons{
+    height: 45px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.s1-esquerda > img{
+    height: 75px;
+    width: auto;
+
+}
+
+.s1-esquerda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100%;
+    width: 50%;
+}
+
+.s1-esquerda > input{
+    padding: 5px 80px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    position: relative;
+    width: 500px;
+    height:40px;
+    font: 18px 'fonte2';
+}
+
+.s1-lupa{
+    position: absolute;
+    left: 590px;
+
+    height: 25px !important ;
+    width: auto !important;
+}
+
+.s1-meio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 25%;
+}
+
+.s1-meio> a {
+    text-decoration: none;
+}
+.s1-meio img {
+    position: absolute;
+    right: 632px;
+    height: 40px !important ;
+    width: auto !important;
+}
+
+.s1-direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    height: 100%;
+    width: 25%;
+}
+
+.s1-direita > img{
+    position: absolute;
+    right: 250px;
+
+    height: 40px !important ;
+    width: auto !important;
+}
+
+.s1-direita > a {
+    text-decoration: none;
+    text-align: center;
+}
+.secao2 {
+    background-color: #4e92d3;
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.secao2 a {
+    color:#fff;
+    text-decoration: underline;
+    margin:20px;
+    font: 18px 'fonte8';
+}

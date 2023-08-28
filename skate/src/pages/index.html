@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roda de Skate</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../common/fonts.css">
+    <link rel="stylesheet" href="../common/geral.css">
+</head>
+<body>
+    <header id="secao1">
+        <section id="sociais">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+            <svg viewBox="0 0 320 512"><path d="M279.1 288l14.3-92.7h-89v-60c0-25.4 12.5-50.2 52.3-50.2H297V6.4S260.4 0 225.4 0C152 0 104.3 44.4 104.3 124.7v70.6H22.9V288h81.4v224h100.2V288z"></path></svg>
+        </section>
+        <section id="secao">
+            <img src="../assets/images/logo.png" alt="">
+            <div>
+                <input type="text" placeholder="O que você está buscando?" onclick="border:">
+                <svg viewBox="0 0 30.9 31.2"><path d="m30.787 29.158-7.81-7.81a.718.718 0 0 0-.515-.212h-.624a12.538 12.538 0 0 0 3.348-8.543C25.186 5.637 19.55 0 12.593 0 5.637 0 0 5.637 0 12.593c0 6.957 5.637 12.593 12.593 12.593 3.3 0 6.297-1.271 8.543-3.342v.618c0 .194.079.375.212.514l7.81 7.81a.727.727 0 0 0 1.03 0l.599-.599a.727.727 0 0 0 0-1.029Zm-18.194-5.91A10.648 10.648 0 0 1 1.937 12.594c0-5.89 4.765-10.656 10.656-10.656A10.648 10.648 0 0 1 23.25 12.593 10.648 10.648 0 0 1 12.593 23.25Z"></path></svg>
+            </div>
+            <div id="atendimentos">
+                <article>
+                    <img src="../assets/images/iconChat.png" alt="">
+                    <span>Atendimento</span>
+                </article>
+                <article>
+                    <img src="../assets/images/iconPessoa.png" alt="">
+                    <span>Minha conta</span>
+                </article>
+
+                <article>
+                    <img src="../assets/images/iconCarrinho2.png" alt="">
+                    <span id="numero">0</span>
+                    <span>Meu carrinho</span>
+                    
+                </article>
+            </div>
+        </section>
+        <nav >
+            <section>
+                <a href="https://www.woodskateshop.com.br/produtos/">Todas as Categorias</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+            </section>
+            <section>
+                <a href="https://www.woodskateshop.com.br/shapes/">Shapes</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+            </section>
+            <section>
+                <a href="https://www.woodskateshop.com.br/skate-montado/">Skate Completo</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+            </section>
+            <section>
+                <a href="https://www.woodskateshop.com.br/longboard-montado/">Longboard Completo</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+            </section>
+            <section>
+                <a href="https://www.woodskateshop.com.br/acessorios/">Acessórios</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+            </section>
+            <section>
+                <a href="https://www.woodskateshop.com.br/fingerboards/">Fingerboards</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+            </section>
+            <section>
+                <a href="https://www.woodskateshop.com.br/promocoes/">Promoções</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+            </section>
+            <section>
+                <a href="https://www.woodskateshop.com.br/como-comprar/">Como Comprar?</a>           
+            </section>
+        </nav>
+    </header>
+    <div id="espaco"></div>
+    <section id="secao2">
+        <header>
+            <h1>Rodas</h1>
+            <p>A melhores rodas nacionais e importadas para seu skate! Vários tamanhos e durezas.</p>
+        </header>
+        <nav>
+            <p> <a href="https://www.woodskateshop.com.br/">Início   </a> >
+            <a href="https://www.woodskateshop.com.br/acessorios/">   Acessórios    </a>
+             >    Rodas </p>
+            <div>
+                <p id="botao">Mais Vendidos</p>
+            </div>
+        </nav>
+    </section>
+    <main id="secao3">
+        <aside>
+            <h3>Filtrar por</h3>
+            <h5>Marca</h5>
+            <section id="opcoes">
+                <article>
+                    <input type="checkbox">
+                    <span>Black Sheep (3)</span>
+                </article>
+                <article>
+                    <input type="checkbox">
+                    <span>Bones Weels (2)</span>
+                </article>
+                <article>
+                    <input type="checkbox">
+                    <span >Girl (1)</span>
+                </article>
+                <article>
+                    <input type="checkbox">
+                    <span>Moska (5)</span>
+                </article>
+                <article>
+                    <input type="checkbox">
+                    <span>Next (2)</span>
+                </article>
+                <article>
+                    <input type="checkbox">
+                    <span>Pig (1)</span>
+                </article>
+                <article>
+                    <input type="checkbox">
+                    <span>Wood light (6)</span>
+                </article>
+            </section>
+            <section id="preco">
+                <h5>Preço</h5>
+                <div id="valor">
+                    <article>
+                        <p>De</p>
+                        <input type="text" name="" id="">
+                    </article>
+                    <article id="irLado">
+                        <p>Até</p>
+                        <input type="text" name="" id="">
+                    </article>
+                    <button type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+                    </button>
+                </div>
+            </section>
+        </aside>
+        <section>
+            <section class="faixa">
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-06/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasMoska55mm.webp" alt="">
+                        <div class="desconto">32% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-06/">
+                            <h5 class="modelo">Roda de Skate Moska Rock 55mm 53d</h5>
+                            <section class="precos">
+                                <h5>R$189,90</h5>
+                        </a>
+                        <h3>R$129,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$12,99 </strong>sem juros </p>
+                    </div>
+                </article>
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-13/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasWoodDourada53mm.webp" alt="">
+                        <div class="desconto">29% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-13/">
+                            <p class="modelo">Roda de Skate Iniciante Wood Light Preta 53mm</p>
+                            <section class="precos">
+                                <h5>R$69,90</h5>
+                        </a>
+                        <h3>R$49,90</h3>
+                        </section>
+                        <p> <strong> 9x </strong> de <strong> R$5,54 </strong>sem juros </p>
+                    </div>
+                </article>
+                <article> 
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-10/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasNextVermelha53mm.webp" alt="">
+                        <div class="desconto">31% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-10/">
+                            <p class="modelo">Roda de Skate Next Vermelha 53mm</p>
+                            <section class="precos">
+                                <h5>R$129,90</h5>
+                        </a>
+                        <h3>R$89,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$8,99 </strong>sem juros </p>
+                    </div>
+                </article>
+            </section>
+            <section class="faixa">
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-14/" class="previu">
+                        <img class="rodas" src="../assets/images/rodaWoodBrancaDourada55mm.webp" alt="">
+                        <div class="desconto">25% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-14/">
+                            <p class="modelo">Roda de Skate Profissional Wood Light 55mm</p>
+                            <section class="precos">
+                                <h5>R$159,90</h5>
+                        </a>
+                        <h3>R$119,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$11,99 </strong>sem juros </p>
+                    </div>
+                </article>
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-09/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasNextAzul53mm.webp" alt="">
+                        <div class="desconto">31% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-09/">
+                            <p class="modelo">Roda de Skate Next Azul 53mm</p>
+                            <section class="precos">
+                                <h5>R$129,90</h5>
+                        </a>
+                        <h3>R$89,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$8,99 </strong>sem juros </p>
+                    </div>
+                </article>
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-08/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasMoskaBrancaVermelha53mm.webp" alt="">
+                        <div class="desconto">33% OFF</div>
+                    </a>                      
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-08/">
+                            <p class="modelo">Roda de Skate Moska Rock 53mm 53d</p>
+                            <section class="precos">
+                                <h5>R$179,90</h5>
+                        </a>
+                        <h3>R$119,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$11,99 </strong>sem juros </p>
+                    </div>
+                </article>
+            </section>
+            <section class="faixa">
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-12/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasWoodBranca53mm.webp" alt="">
+                        <div class="desconto">29% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-12/">
+                            <p class="modelo">Roda de Skate Iniciante Wood Light Branca 53mm</p>
+                            <section class="precos">
+                                <h5>R$169,90</h5>
+                        </a>
+                        <h3>R$49,90</h3>
+                        </section>
+                        <p> <strong> 9x </strong> de <strong> R$5,54 </strong>sem juros </p>
+                    </div>
+                </article>
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-07/" class="previu">
+                        <img class="rodas" src="../assets/images/rodaMoskaverde60mm.webp" alt="">
+                        <div class="desconto">22% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-07/">
+                            <p class="modelo">Roda de Skate Moska Calibre 60mm 53d</p>
+                            <section class="precos">
+                                <h5>R$229,90</h5>
+                        </a>
+                        <h3>R$179,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$17,99 </strong>sem juros </p>
+                    </div>
+                </article>
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-18/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasMoskaFalcao56mm.gif" alt="">
+                        <div class="desconto">30% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-18/">
+                            <p class="modelo">Roda de Skate Moska Raul Roger 56mm 55d</p>
+                            <section class="precos">
+                                <h5>R$229,90</h5>
+                        </a>
+                        <h3>R$159,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$15,99 </strong>sem juros </p>
+                    </div>
+            </section>
+            <section class="faixa">
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-16/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasBlackSheep60mm.gif" alt="">
+                        <div class="desconto">28% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-16/">
+                            <p class="modelo">Roda de Skate Black Sheep 60mm</p>
+                            <section class="precos">
+                                <h5>R$249,90</h5>
+                        </a>
+                        <h3>R$179,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$17,99 </strong>sem juros </p>
+                    </div>
+                </article>
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-17/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasLongboardAmarela64mm.webp" alt="">
+                        <div class="desconto">23% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-17/">
+                            <p class="modelo">Roda de Longboard Amarela 64mm</p>
+                            <section class="precos">
+                                <h5>R$219,90</h5>
+                        </a>
+                        <h3>R$169,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$16,99 </strong>sem juros </p>
+                    </div>
+                </article>
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-16/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasLongboardLaranja64mm.webp" alt="">
+                        <div class="desconto">23% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-16/">
+                            <p class="modelo">Roda de Longboard Laranja 64mm</p>
+                            <section class="precos">
+                                <h5>R$219,90</h5>
+                        </a>
+                        <h3>R$169,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$16,99 </strong>sem juros </p>
+                    </div>
+                </article>
+            </section>
+            <section class="faixa">
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-15/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasLongboardPretas64mm.webp" alt="">
+                        <div class="desconto">23% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-15/">
+                            <p class="modelo">Roda de Longboard Preta 64mm</p>
+                            <section class="precos">
+                                <h5>R$219,90</h5>
+                        </a>
+                        <h3>R$169,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$16,99 </strong>sem juros </p>
+                    </div>
+                </article>
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-11/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasPigBrancaePreta55mm.webp" alt="">
+                        <div class="desconto">25% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-11/">
+                            <p class="modelo">Roda de Skate Pig 55mm</p>
+                            <section class="precos">
+                                <h5>R$259,90</h5>
+                        </a>
+                        <h3>R$194,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$19,49 </strong>sem juros </p>
+                    </div>
+                </article>
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-05/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasBlackSheepAmarela53mm.webp" alt="">
+                        <div class="desconto">25% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-05/">
+                            <p class="modelo">Roda de Skate Black Sheep Amarela 53mm 97A</p>
+                            <section class="precos">
+                                <h5>R$159,90</h5>
+                        </a>
+                        <h3>R$119,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$11,99 </strong>sem juros </p>
+                    </div>
+                </article>
+            </section>
+            <section class="faixa">
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-04/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasBlackSheepOvelha55mm.webp" alt="">
+                        <div class="desconto">25% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-04/">
+                            <p class="modelo">Roda de Skate Black Sheep 55mm</p>
+                            <section class="precos">
+                                <h5>R$159,90</h5>
+                        </a>
+                        <h3>R$119,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$11,99 </strong>sem juros </p>
+                    </div>
+                </article>
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-03/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasGirlAZul52mm.webp" alt="">
+                        <div class="desconto">36% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-03/">
+                            <p class="modelo">Roda de Skate Girl Cruisers 52mm</p>
+                            <section class="precos">
+                                <h5>R$249,90</h5>
+                        </a>
+                        <h3>R$159,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$15,99 </strong>sem juros </p>
+                    </div>
+                </article>
+                <article>
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-02/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasBonesPreta54mm.webp" alt="">
+                        <div class="desconto">20% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-02/">
+                            <p class="modelo">Roda de Skate Bones V3 xstf 54mm</p>
+                            <section class="precos">
+                                <h5>R$499,90</h5>
+                        </a>
+                        <h3>R$339,90</h3>
+                    </section>
+                        <p> <strong> 10x </strong> de <strong> R$39,99 </strong>sem juros </p>
+                    </div>
+                </article>
+            </section>
+            <section class="faixa">
+                <article> 
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-01/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasBonesCaveira54mm.webp" alt="">
+                        <div class="desconto">20% OFF</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-01/">
+                            <p class="modelo">Roda de Skate Bones V1 xstf 54mm</p>
+                            <section class="precos">
+                                <h5>R$499,90</h5>
+                        </a>
+                        <h3>R$339,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$39,99 </strong>sem juros </p>
+                    </div>
+                </article>
+                <article id="artigo esgotado">
+                    <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-moska-andre-will-54mm-53d/" class="previu">
+                        <img class="rodas" src="../assets/images/rodasMoskaAndreWill.gif" alt="">
+                        <div id="esgotado">ESGOTADO</div>
+                    </a>
+                    <div class="linha"></div>
+                    <div class="detalhes">
+                        <img class="estrelas" src="../assets/images/estrelas.png" alt="">
+                        <a href="https://www.woodskateshop.com.br/produtos/roda-de-skate-moska-andre-will-54mm-53d/">
+                            <p class="modelo">Roda de Skate Moska André Will 54mm 53d</p>
+                            <section class="precos">
+                                <h5>R$179,90</h5>
+                        </a>
+                        <h3>R$119,90</h3>
+                        </section>
+                        <p> <strong> 10x </strong> de <strong> R$11,99 </strong>sem juros </p>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section id="footerSecao1">
+            <div id="atendimentos">
+                    <section id="departamentos">
+                    <h4>Departamentos</h4>
+                        <a href="https://www.woodskateshop.com.br/como-comprar/">Como Comprar?</a>
+                        <a href="https://woodlightdecks.lojavirtualnuvem.com.br/politica-de-privacidade/">Política de Privacidade</a>
+                        <a href="https://www.woodskateshop.com.br/contato/">Contato</a>
+                        <a href="https://www.woodskateshop.com.br/trocas-e-devolucoes/">Trocas e Devoluções</a>
+                        <a href="https://www.woodskateshop.com.br/sobre-a-marca/">Sobre a Marca</a>
+                        <a href="https://www.woodskateshop.com.br/perguntas-frequentes/">Perguntas Frequentes</a>
+                        <a href="https://www.woodskateshop.com.br/guia-de-medidas/">Guia de Medidas</a>
+                    </section>
+                    <section >
+                        <h4>Entre em contato</h4>
+                        <article>
+                            <svg class="icon-inline icon-lg icon-w contact-item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>
+                            <a href="https://wa.me/5519971614978">5519971614978</a>
+                        </article>
+                        <article>
+                            <svg class="icon-inline icon-lg icon-w contact-item-icon" viewBox="0 0 512 512"><path d="M487.8 24.1L387 .8a31.3 31.3 0 0 0-35.8 18.1l-46.5 108.5a31.4 31.4 0 0 0 8.9 36.5l53.9 44.1a350 350 0 0 1-159.6 159.6l-44.1-53.9a31.4 31.4 0 0 0-36.5-8.9L18.9 351.3C5 357.3-2.6 372.3.8 387L24 487.7A31.2 31.2 0 0 0 54.5 512 457.4 457.4 0 0 0 512 54.5a31 31 0 0 0-24.2-30.4zM55.1 480l-23-99.6 107.4-46 59.5 72.8c103.6-48.6 159.7-104.9 208.1-208.1l-72.8-59.5 46-107.4 99.6 23A425.3 425.3 0 0 1 55.1 480z"></path></svg>
+                            <a href="tel:(19) 97161-4978">(19) 97161-4978</a>
+                        </article>
+                        <article>
+                            <svg class="icon-inline icon-lg icon-w contact-item-icon" viewBox="0 0 512 512"><path d="M464 64H48a48 48 0 0 0-48 48v288a48 48 0 0 0 48 48h416a48 48 0 0 0 48-48V112a48 48 0 0 0-48-48zM48 96h416a16 16 0 0 1 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3A6862.8 6862.8 0 0 1 32 153.4V112a16 16 0 0 1 16-16zm416 320H48a16 16 0 0 1-16-16V195a11843 11843 0 0 0 130.7 104.7c20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3A11843 11843 0 0 0 480 195v205a16 16 0 0 1-16 16z"></path></svg>
+                            <a href="mailto:atendimento@woodlight.com.br"> atendimento@woodlight.com.br</a>
+                        </article>
+                        <article>
+                            <svg class="icon-inline icon-lg icon-w contact-item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M192 96c-52.935 0-96 43.065-96 96s43.065 96 96 96 96-43.065 96-96-43.065-96-96-96zm0 160c-35.29 0-64-28.71-64-64s28.71-64 64-64 64 28.71 64 64-28.71 64-64 64zm0-256C85.961 0 0 85.961 0 192c0 77.413 26.97 99.031 172.268 309.67 9.534 13.772 29.929 13.774 39.465 0C357.03 291.031 384 269.413 384 192 384 85.961 298.039 0 192 0zm0 473.931C52.705 272.488 32 256.494 32 192c0-42.738 16.643-82.917 46.863-113.137S149.262 32 192 32s82.917 16.643 113.137 46.863S352 149.262 352 192c0 64.49-20.692 80.47-160 281.931z"></path></svg>
+                            <a href=""> Avenida Iracy Berezoski Cayres 240 Bloco B</a>
+                        </article>
+                    </section>
+                    <section id="conectado">
+                        <h4>Permaneça conectado</h4>
+                        <div id="icons">
+                            <a href="https://www.facebook.com/woodlightdecks">
+                                <img src="../assets/images/iconFacebook.png" alt="">
+                            </a>
+                            <a href="https://www.instagram.com/woodlightdecks/">
+                                <img src="../assets/images/iconInsta.png" alt="">
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            <div id="footerLinha"></div>
+            <img src="../assets/images/emAvaliacao.png" alt="">
+        </section>
+        <section id="footerSecao2">
+            <div id="classificacao">
+                <img src="../assets/images/nenhumaClassificacao.png" alt="">
+            </div>
+            
+            <p> " Copyright Wood Light - 31524912000196 - 2023. Todos os direitos reservados. "</p>
+            <a href="https://www.nuvemshop.com.br/" id="criadoCom">
+                <img src="../assets/images/criadoCom.png" alt="">
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=5519971614978&text&type=phone_number&app_absent=0" id="wats">
+                <img src="../assets/images/iconeWatts8.png" alt="">
+            </a>
+        </section>
+    </footer>
+</body>
+</html>
